@@ -60,7 +60,7 @@ const Footer = () => {
             <a className="link link-hover block mt-3">FAQ</a>
             <a className="link link-hover block mt-3">Contact Us</a>
           </div>
-          <div className="lg:col-span-2 md:col-span-6 col-span-12">
+          <div className="lg:col-span-3 md:col-span-6 col-span-12">
             <h6 className="footer-title text-[#e93740]">
               Subscribe to Our Newsletter
             </h6>

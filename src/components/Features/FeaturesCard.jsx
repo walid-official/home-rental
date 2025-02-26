@@ -58,7 +58,7 @@ const FeaturesCard = () => {
         </div>
       </div>
       {/* Card 2 */}
-      <div className="card bg-base-100  shadow-xl">
+      <div className="card bg-base-100  shadow-md">
         <figure className="relative">
           <img className="w-full" src={feature2} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
@@ -104,7 +104,7 @@ const FeaturesCard = () => {
         </div>
       </div>
       {/* Card 3 */}
-      <div className="card bg-base-100  shadow-xl">
+      <div className="card bg-base-100  shadow-md">
         <figure className="relative">
           <img className="w-full" src={feature3} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
@@ -150,7 +150,7 @@ const FeaturesCard = () => {
         </div>
       </div>
       {/* Card 4 */}
-      <div className="card bg-base-100  shadow-xl">
+      <div className="card bg-base-100  shadow-md">
         <figure className="relative">
           <img className="w-full" src={feature4} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
@@ -196,7 +196,7 @@ const FeaturesCard = () => {
         </div>
       </div>
       {/* Card 5 */}
-      <div className="card bg-base-100  shadow-xl">
+      <div className="card bg-base-100  shadow-md">
         <figure className="relative">
           <img className="w-full" src={feature5} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
@@ -242,7 +242,7 @@ const FeaturesCard = () => {
         </div>
       </div>
       {/* Card 6 */}
-      <div className="card bg-base-100  shadow-xl">
+      <div className="card bg-base-100  shadow-md">
         <figure className="relative">
           <img className="w-full" src={feature6} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
