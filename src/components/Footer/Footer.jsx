@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="bg-[#f4f4f4] py-10">
       <Container>
-        <footer className="flex justify-between  ">
+        <footer className="lg:flex justify-between">
           <div>
             <div className="">
               <img className="w-40" src={footerLogo} alt="" />

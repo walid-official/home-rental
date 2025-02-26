@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import Container from "../../shared/Container";
 import { FiUser } from "react-icons/fi";
 import { GoPlus } from "react-icons/go";
+import { IoClose, IoMenu } from "react-icons/io5";
 const Navbar = () => {
+  const [isAuthVisible, setIsAuthVisible] = useState(false);
+
+  const toggleAuthButtons = () => {
+    setIsAuthVisible(!isAuthVisible);
+  };
+
   const links = (
     <>
       <li>
@@ -23,7 +30,7 @@ const Navbar = () => {
   return (
     <div className="py-3">
       <Container>
-        <div className="navbar ">
+        <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -63,7 +70,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <div className="flex gap-2 items-center">
+            <div className="lg:flex hidden gap-2 items-center">
               <div className="">
                 <button className=" text-[#e93740] hover:bg-[#e93740] cursor-pointer hover:text-white duration-500 rounded-full px-7 py-3  flex gap-2 items-center ">
                   {" "}
@@ -80,8 +87,23 @@ const Navbar = () => {
                 </button>
               </div>
             </div>
+            <div className="lg:hidden flex">
+            <button onClick={toggleAuthButtons} className="lg:hidden p-2">
+              {isAuthVisible ? <IoClose size={24} /> : <IoMenu size={24} />}
+            </button>
+            </div>
           </div>
         </div>
+        {isAuthVisible && (
+          <div className="lg:hidden absolute top-16 right-0 bg-white shadow-md z-10 p-4 rounded-md w-52">
+            <button className="w-full text-[#e93740] hover:bg-[#e93740] cursor-pointer hover:text-white duration-500 rounded-full px-7 py-3 flex gap-2 items-center">
+              <FiUser /> Sign in
+            </button>
+            <button className="w-full bg-[#e93740] cursor-pointer rounded-full px-7 py-3 text-white flex gap-2 items-center mt-2">
+              <GoPlus className="text-[18px] font-semibold" /> Register
+            </button>
+          </div>
+        )}
       </Container>
     </div>
   );
