@@ -3,6 +3,7 @@ import Banner from '../components/Banner/Banner';
 import Features from '../components/Features/Features';
 import Performance from '../components/Performance/Performance';
 import FeatureLocations from '../components/FeatureLocations/FeatureLocations';
+import Articles from '../components/Articles/Articles';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Features></Features>
             <Performance></Performance>
             <FeatureLocations></FeatureLocations>
+            <Articles></Articles>
         </div>
     );
 };
