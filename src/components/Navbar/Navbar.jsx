@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
 import Container from "../../shared/Container";
+import { FiUser } from "react-icons/fi";
+import { GoPlus } from "react-icons/go";
 const Navbar = () => {
   const links = (
     <>
@@ -19,7 +21,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-amber-300">
+    <div className="py-3">
       <Container>
         <div className="navbar ">
           <div className="navbar-start">
@@ -56,10 +58,28 @@ const Navbar = () => {
             </div>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">{links}</ul>
+            <ul className="menu menu-horizontal px-1 space-x-6 font-semibold">
+              {links}
+            </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn">Button</a>
+            <div className="flex gap-2 items-center">
+              <div className="">
+                <button className=" text-[#e93740] hover:bg-[#e93740] cursor-pointer hover:text-white duration-500 rounded-full px-7 py-3  flex gap-2 items-center ">
+                  {" "}
+                  <FiUser></FiUser> Sign in
+                </button>
+              </div>
+              <div className="">
+                <button className="bg-[#e93740] cursor-pointer rounded-full px-7 py-3 text-white flex gap-2 items-center">
+                  {" "}
+                  <div className="text-[18px] font-semibold">
+                    <GoPlus></GoPlus>{" "}
+                  </div>{" "}
+                  Register
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </Container>
