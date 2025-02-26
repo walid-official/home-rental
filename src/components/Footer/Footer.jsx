@@ -10,15 +10,15 @@ const Footer = () => {
   return (
     <div className="bg-[#f4f4f4] py-10">
       <Container>
-        <footer className="lg:flex justify-between">
-          <div>
+        <footer className="grid grid-cols-12 gap-6">
+          <div className="lg:col-span-3 md:col-span-6 col-span-12">
             <div className="">
               <img className="w-40" src={footerLogo} alt="" />
             </div>
             <div className="py-4">
               <p>
                 Best Platform for online properties finding and tenant
-                <br />
+                
                 management
               </p>
             </div>
@@ -40,14 +40,14 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="lg:col-span-2 md:col-span-6 col-span-12">
             <h6 className="footer-title text-[#e93740]">Navigation</h6>
             <a className="link link-hover block mt-3">About Us</a>
             <a className="link link-hover block mt-3">Blog</a>
             <a className="link link-hover block mt-3">Terms of use</a>
             <a className="link link-hover block mt-3">Privacy Policy</a>
           </div>
-          <div>
+          <div className="lg:col-span-2 md:col-span-6 col-span-12">
             <h6 className="footer-title text-[#e93740]">Featured Locations</h6>
             <a className="link link-hover block mt-3">Kandy</a>
             <a className="link link-hover block mt-3">Anuradhapura</a>
@@ -55,16 +55,16 @@ const Footer = () => {
             <a className="link link-hover block mt-3">Colombo</a>
             <a className="link link-hover block mt-3">Kaluthara</a>
           </div>
-          <div>
+          <div className="lg:col-span-2 md:col-span-6 col-span-12">
             <h6 className="footer-title text-[#e93740]">Help</h6>
             <a className="link link-hover block mt-3">FAQ</a>
             <a className="link link-hover block mt-3">Contact Us</a>
           </div>
-          <div>
+          <div className="lg:col-span-2 md:col-span-6 col-span-12">
             <h6 className="footer-title text-[#e93740]">
               Subscribe to Our Newsletter
             </h6>
-            <p>Stay Updated With the latest listings and <br /> rental tips</p>
+            <p>Stay Updated With the latest listings and rental tips</p>
             <div className="">
               <input
                 type="email"

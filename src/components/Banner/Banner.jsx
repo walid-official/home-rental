@@ -8,7 +8,7 @@ const Banner = () => {
       style={{ backgroundImage: `url(${bannerImg})` }}
     >
       <Container>
-        <div className="flex justify-center items-center min-h-screen">
+        <div className="flex justify-center items-center min-h-[90vh]">
           <div className="">
             <div className="">
               <h1 className="font-bold text-5xl text-center">
@@ -29,7 +29,7 @@ const Banner = () => {
               </button>
             </div>
             <div className="">
-              <div className=" border-none bg-white p-3 rounded-full  flex items-center gap-2">
+              <div className=" border-none bg-white p-3 px-5 rounded-full  flex items-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"

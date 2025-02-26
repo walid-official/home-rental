@@ -16,8 +16,8 @@ const Articles = () => {
             <div className="bg-[#e93740] w-4 h-1 rounded-full"></div>
           </div>
         </div>
-        <div className="flex gap-6  pt-10 pb-10">
-          <div className="w-[55%]">
+        <div className="lg:flex gap-6  pt-10 pb-10">
+          <div className="lg:w-[55%]">
             <div className="">
               <img src={articleHeader} alt="" />
             </div>
@@ -29,7 +29,7 @@ const Articles = () => {
               </p>
             </div>
           </div>
-          <div className="w-[45%] space-y-6">
+          <div className="lg:w-[45%] mt-10 lg:mt-0 space-y-6">
             <div className="">
               <div className="flex gap-4">
                 <div className="w-[60%]">

@@ -19,7 +19,7 @@ const FeatureLocations = () => {
           </div>
         </div>
         <div className="grid grid-cols-12 gap-6 pt-12 pb-10">
-          <div className="w-full col-span-3 relative">
+          <div className="w-full md:col-span-3 col-span-12 relative">
             {/* Image */}
             <img
               src={location1}
@@ -35,7 +35,7 @@ const FeatureLocations = () => {
               Kandy
             </span>
           </div>
-          <div className="w-full  col-span-6">
+          <div className="w-full  md:col-span-6 col-span-12">
             <div className="grid lg:grid-cols-2 gap-6">
               <div className="w-full  relative">
                 {/* Image */}
@@ -103,7 +103,7 @@ const FeatureLocations = () => {
               </div>
             </div>
           </div>
-          <div className="w-full col-span-3 relative">
+          <div className="w-full md:col-span-3 col-span-12 relative">
             {/* Image */}
             <img
               src={location6}

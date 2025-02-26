@@ -10,11 +10,11 @@ import feature6 from "../../assets/images/featured-img/feature6.png";
 import featureProfile from "../../assets/images/featured-img/feature-profile.png";
 const FeaturesCard = () => {
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 pt-16 pb-10">
+    <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-6 pt-16 pb-10">
       {/* Card 1 */}
       <div className="card bg-base-100  shadow-xl">
         <figure className="relative">
-          <img src={feature1} alt="Feature-Image" />
+          <img className="w-full" src={feature1} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
             <button className="text-white bg-[#77b747]  cursor-pointer rounded-full px-5 py-1">
               For Rent
@@ -29,11 +29,11 @@ const FeaturesCard = () => {
             <h2 className="text-2xl font-semibold pt-3">
               Luxury flat in Rego Park
             </h2>
-            <div className="flex justify-between items-center pt-4">
+            <div className="lg:xl:flex justify-between items-center pt-4">
               <h3 className="text-[18px]">3 Bedrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden "></div>
               <h3 className="text-[18px]">2 Bathrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2500 Square FT</h3>
             </div>
           </div>
@@ -60,7 +60,7 @@ const FeaturesCard = () => {
       {/* Card 2 */}
       <div className="card bg-base-100  shadow-xl">
         <figure className="relative">
-          <img src={feature2} alt="Feature-Image" />
+          <img className="w-full" src={feature2} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
             <button className="text-white bg-[#77b747]  cursor-pointer rounded-full px-5 py-1">
               For Rent
@@ -75,11 +75,11 @@ const FeaturesCard = () => {
             <h2 className="text-2xl font-semibold pt-3">
               Luxury flat in Rego Park
             </h2>
-            <div className="flex justify-between items-center pt-4">
+            <div className="xl:flex justify-between items-center pt-4">
               <h3 className="text-[18px]">3 Bedrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2 Bathrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2500 Square FT</h3>
             </div>
           </div>
@@ -106,7 +106,7 @@ const FeaturesCard = () => {
       {/* Card 3 */}
       <div className="card bg-base-100  shadow-xl">
         <figure className="relative">
-          <img src={feature3} alt="Feature-Image" />
+          <img className="w-full" src={feature3} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
             <button className="text-white bg-[#77b747]  cursor-pointer rounded-full px-5 py-1">
               For Rent
@@ -121,11 +121,11 @@ const FeaturesCard = () => {
             <h2 className="text-2xl font-semibold pt-3">
               Luxury flat in Rego Park
             </h2>
-            <div className="flex justify-between items-center pt-4">
+            <div className="xl:flex justify-between items-center pt-4">
               <h3 className="text-[18px]">3 Bedrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2 Bathrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2500 Square FT</h3>
             </div>
           </div>
@@ -152,7 +152,7 @@ const FeaturesCard = () => {
       {/* Card 4 */}
       <div className="card bg-base-100  shadow-xl">
         <figure className="relative">
-          <img src={feature4} alt="Feature-Image" />
+          <img className="w-full" src={feature4} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
             <button className="text-white bg-[#77b747]  cursor-pointer rounded-full px-5 py-1">
               For Rent
@@ -167,11 +167,11 @@ const FeaturesCard = () => {
             <h2 className="text-2xl font-semibold pt-3">
               Luxury flat in Rego Park
             </h2>
-            <div className="flex justify-between items-center pt-4">
+            <div className="xl:flex justify-between items-center pt-4">
               <h3 className="text-[18px]">3 Bedrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2 Bathrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2500 Square FT</h3>
             </div>
           </div>
@@ -198,7 +198,7 @@ const FeaturesCard = () => {
       {/* Card 5 */}
       <div className="card bg-base-100  shadow-xl">
         <figure className="relative">
-          <img src={feature5} alt="Feature-Image" />
+          <img className="w-full" src={feature5} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
             <button className="text-white bg-[#77b747]  cursor-pointer rounded-full px-5 py-1">
               For Rent
@@ -213,11 +213,11 @@ const FeaturesCard = () => {
             <h2 className="text-2xl font-semibold pt-3">
               Luxury flat in Rego Park
             </h2>
-            <div className="flex justify-between items-center pt-4">
+            <div className="xl:flex justify-between items-center pt-4">
               <h3 className="text-[18px]">3 Bedrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2 Bathrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2500 Square FT</h3>
             </div>
           </div>
@@ -244,7 +244,7 @@ const FeaturesCard = () => {
       {/* Card 6 */}
       <div className="card bg-base-100  shadow-xl">
         <figure className="relative">
-          <img src={feature6} alt="Feature-Image" />
+          <img className="w-full" src={feature6} alt="Feature-Image" />
           <div className="absolute top-5 right-6">
             <button className="text-white bg-[#77b747]  cursor-pointer rounded-full px-5 py-1">
               For Rent
@@ -259,11 +259,11 @@ const FeaturesCard = () => {
             <h2 className="text-2xl font-semibold pt-3">
               Luxury flat in Rego Park
             </h2>
-            <div className="flex justify-between items-center pt-4">
+            <div className="xl:flex justify-between items-center pt-4">
               <h3 className="text-[18px]">3 Bedrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2 Bathrooms</h3>
-              <div className="w-[2px] h-4 bg-black"></div>
+              <div className="w-[2px] h-4 bg-black lg:flex hidden"></div>
               <h3 className="text-[18px]">2500 Square FT</h3>
             </div>
           </div>
